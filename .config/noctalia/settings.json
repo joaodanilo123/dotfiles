@@ -1,0 +1,219 @@
+{
+    "appLauncher": {
+        "backgroundOpacity": 0.8,
+        "enableClipboardHistory": true,
+        "pinnedExecs": [
+        ],
+        "position": "center",
+        "useApp2Unit": false
+    },
+    "audio": {
+        "cavaFrameRate": 60,
+        "mprisBlacklist": [
+        ],
+        "preferredPlayer": "",
+        "showMiniplayerAlbumArt": false,
+        "showMiniplayerCava": false,
+        "visualizerType": "linear",
+        "volumeStep": 5
+    },
+    "bar": {
+        "alwaysShowBatteryPercentage": false,
+        "backgroundOpacity": 1,
+        "floating": true,
+        "marginHorizontal": 0.3,
+        "marginVertical": 0.09,
+        "monitors": [
+        ],
+        "position": "top",
+        "showActiveWindowIcon": true,
+        "showNetworkStats": false,
+        "showWorkspaceLabel": "none",
+        "useDistroLogo": false,
+        "widgets": {
+            "center": [
+                {
+                    "displayFormat": "time-date",
+                    "id": "Clock",
+                    "reverseDayMonth": true,
+                    "use12HourClock": false
+                }
+            ],
+            "left": [
+                {
+                    "hideUnoccupied": false,
+                    "id": "Workspace",
+                    "labelMode": "index"
+                },
+                {
+                    "id": "SystemMonitor",
+                    "showCpuTemp": true,
+                    "showCpuUsage": true,
+                    "showDiskUsage": false,
+                    "showMemoryAsPercent": false,
+                    "showMemoryUsage": true,
+                    "showNetworkStats": false
+                },
+                {
+                    "id": "ActiveWindow",
+                    "showIcon": true
+                },
+                {
+                    "id": "MediaMini",
+                    "showAlbumArt": false,
+                    "showVisualizer": false,
+                    "visualizerType": "linear"
+                }
+            ],
+            "right": [
+                {
+                    "id": "ScreenRecorderIndicator"
+                },
+                {
+                    "id": "Tray"
+                },
+                {
+                    "hideWhenZero": true,
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true
+                },
+                {
+                    "id": "Bluetooth"
+                },
+                {
+                    "alwaysShowPercentage": false,
+                    "displayMode": "onhover",
+                    "id": "Volume"
+                },
+                {
+                    "id": "NightLight"
+                },
+                {
+                    "id": "SidePanelToggle",
+                    "useDistroLogo": false
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "brightnessStep": 5
+    },
+    "colorSchemes": {
+        "darkMode": true,
+        "predefinedScheme": "Monochrome",
+        "useWallpaperColors": false
+    },
+    "dock": {
+        "autoHide": false,
+        "backgroundOpacity": 0.49,
+        "exclusive": false,
+        "floatingRatio": 0.2,
+        "monitors": [
+        ]
+    },
+    "general": {
+        "animationSpeed": 1,
+        "avatarImage": "/home/hittero/.face",
+        "dimDesktop": false,
+        "forceBlackScreenCorners": false,
+        "radiusRatio": 0.8,
+        "screenRadiusRatio": 1,
+        "showScreenCorners": false
+    },
+    "hooks": {
+        "darkModeChange": "",
+        "enabled": false,
+        "wallpaperChange": ""
+    },
+    "location": {
+        "name": "Capão do Cipó",
+        "reverseDayMonth": false,
+        "showDateWithClock": false,
+        "use12HourClock": false,
+        "useFahrenheit": false
+    },
+    "matugen": {
+        "enableUserTemplates": false,
+        "foot": false,
+        "fuzzel": false,
+        "ghostty": false,
+        "gtk3": false,
+        "gtk4": false,
+        "kitty": false,
+        "pywalfox": false,
+        "qt5": false,
+        "qt6": false,
+        "vesktop": false
+    },
+    "network": {
+        "bluetoothEnabled": true,
+        "wifiEnabled": false
+    },
+    "nightLight": {
+        "autoSchedule": true,
+        "dayTemp": "6500",
+        "enabled": false,
+        "forced": false,
+        "manualSunrise": "06:30",
+        "manualSunset": "18:30",
+        "nightTemp": "4000"
+    },
+    "notifications": {
+        "criticalUrgencyDuration": 15,
+        "doNotDisturb": false,
+        "lastSeenTs": 1757962509000,
+        "lowUrgencyDuration": 3,
+        "monitors": [
+        ],
+        "normalUrgencyDuration": 8
+    },
+    "screenRecorder": {
+        "audioCodec": "opus",
+        "audioSource": "default_output",
+        "colorRange": "limited",
+        "directory": "/home/hittero/Videos",
+        "frameRate": 60,
+        "quality": "very_high",
+        "showCursor": true,
+        "videoCodec": "h264",
+        "videoSource": "portal"
+    },
+    "settingsVersion": 2,
+    "ui": {
+        "fontBillboard": "Inter",
+        "fontDefault": "Roboto",
+        "fontFixed": "DejaVu Sans Mono",
+        "idleInhibitorEnabled": false,
+        "monitorsScaling": [
+            {
+                "name": "DP-2",
+                "scale": 1.2
+            }
+        ]
+    },
+    "wallpaper": {
+        "directory": "/home/hittero/Pictures/wallpapers",
+        "enableMultiMonitorDirectories": false,
+        "enabled": true,
+        "fillColor": "#000000",
+        "fillMode": "crop",
+        "monitors": [
+            {
+                "directory": "/home/hittero/Pictures/wallpapers",
+                "name": "DP-3",
+                "wallpaper": "/home/hittero/Pictures/wallpapers/wpp1.png"
+            },
+            {
+                "directory": "/home/hittero/Pictures/wallpapers",
+                "name": "DP-2",
+                "wallpaper": "/home/hittero/Pictures/wallpapers/wpp1.png"
+            }
+        ],
+        "randomEnabled": false,
+        "randomIntervalSec": 300,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 0.05,
+        "transitionType": "random"
+    }
+}
