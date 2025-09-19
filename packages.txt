@@ -15,6 +15,7 @@ brightnessctl
 mako
 
 zsh
+eza
 nvim
 cava
 fastfetch
